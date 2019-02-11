@@ -84,7 +84,10 @@
                                 </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <action selector="toDoFieldChanged:" destination="cBs-fO-QVL" eventType="editingChanged" id="JpD-Qk-jCa"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -111,6 +114,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="saveBarButton" destination="Mks-sT-f6J" id="cPB-CP-7gQ"/>
                         <outlet property="toDoField" destination="5pZ-zd-MeZ" id="B35-Bx-6kx"/>
                     </connections>
                 </viewController>
