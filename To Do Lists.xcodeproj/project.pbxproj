@@ -12,6 +12,7 @@
 		A8531E1922110F730003E486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8531E1722110F730003E486 /* Main.storyboard */; };
 		A8531E1B22110F750003E486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8531E1A22110F750003E486 /* Assets.xcassets */; };
 		A8531E1E22110F750003E486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8531E1C22110F750003E486 /* LaunchScreen.storyboard */; };
+		A8531E262211169E0003E486 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8531E252211169E0003E486 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A8531E1A22110F750003E486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8531E1D22110F750003E486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8531E1F22110F750003E486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8531E252211169E0003E486 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				A8531E1322110F730003E486 /* AppDelegate.swift */,
 				A8531E1522110F730003E486 /* ViewController.swift */,
 				A8531E1722110F730003E486 /* Main.storyboard */,
+				A8531E252211169E0003E486 /* DetailViewController.swift */,
 				A8531E1A22110F750003E486 /* Assets.xcassets */,
 				A8531E1C22110F750003E486 /* LaunchScreen.storyboard */,
 				A8531E1F22110F750003E486 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8531E262211169E0003E486 /* DetailViewController.swift in Sources */,
 				A8531E1622110F730003E486 /* ViewController.swift in Sources */,
 				A8531E1422110F730003E486 /* AppDelegate.swift in Sources */,
 			);
